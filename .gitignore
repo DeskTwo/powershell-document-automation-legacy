@@ -1,0 +1,25 @@
+# PowerShell & OS Junk
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code Directories
+.vscode/
+*.code-workspace
+
+# History & Logs
+*.log
+*.transcript
+
+# Credentials & Certificates (CRITICAL!)
+# Auch wenn das Skript anonymisiert ist, stelle sicher, 
+# dass beim lokalen Testen keine echten Keys im Repo landen.
+*.p12
+*.jks
+*.key
+_Secrets/
+
+# Output folders (wenn du lokal testest)
+Archive/
+Error/
